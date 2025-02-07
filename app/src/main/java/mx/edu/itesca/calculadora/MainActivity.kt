@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
     private fun calcularResultado() {
         try {
             val resultado = eval(operacion)
-            tvSinTexto.text = resultado.toString()  // Mostrar el resultado en TVSinTexto
+            tvSinTexto.text = resultado.toString()
         } catch (e: Exception) {
             tvSinTexto.text = "Error"
         }
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
     private fun limpiar() {
         operacion = ""
         tvResultado.text = ""
-        tvSinTexto.text = ""  // Limpiar también el resultado
+        tvSinTexto.text = ""
     }
     private fun eval(expresion: String): Double {
         return expresion.split("+", "-", "*", "/").map { it.toDouble() }
