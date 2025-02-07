@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textSize="35sp"
+        android:layout_marginTop="48dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/TVSinTexto"
+        android:layout_width="match_parent"
+        android:background="#E0E0E0"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:background="#E0E0E0"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:columnCount="4">
+
+        <!-- Primera fila -->
+        <Button
+            android:id="@+id/siete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="7"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/ocho"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="8"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/nueve"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="9"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:text="/"
+            android:textSize="15sp" />
+
+        <!-- Segunda fila -->
+        <Button
+            android:id="@+id/cuatro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="4"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/cinco"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="5"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/seis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="6"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:text="*"
+            android:textSize="15sp" />
+
+        <!-- Tercera fila -->
+        <Button
+            android:id="@+id/uno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="1"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="2"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/tres"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="3"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:text="-"
+            android:textSize="15sp" />
+
+        <!-- Cuarta fila -->
+        <Button
+            android:id="@+id/cero"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="0"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="="
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/borrar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="C"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:layout_margin="8dp"
+            android:text="+"
+            android:textSize="15sp" />
+    </GridLayout>
+
+</LinearLayout>
